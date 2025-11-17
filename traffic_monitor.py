@@ -1,0 +1,1 @@
+# socket raw to monitor network traffic - captures packets on the network interface and process to indentify traffic types and log them 
