@@ -1,0 +1,1 @@
+sudo MONITOR_INTERFACE=eno1 python3 traffic_monitor.py
