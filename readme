@@ -2,3 +2,7 @@ sudo MONITOR_INTERFACE=eno1 python3 traffic_monitor.py
 
 Se primeiro comando não funcionar usa o seguinte.
 sudo MONITOR_INTERFACE=$(ip route get 1.1.1.1 | awk '{print $5}') python3 traffic_monitor.py
+
+Para ver os graficos
+pip install pandas matplotlib
+python3 analise_grafica.py
